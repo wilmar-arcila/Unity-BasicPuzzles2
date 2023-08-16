@@ -201,7 +201,7 @@ PrefabInstance:
     - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
       propertyPath: levels.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
@@ -211,23 +211,49 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
+      propertyPath: levels.Array.data[1].level
+      value: 
+      objectReference: {fileID: 11400000, guid: 26e684242608d6ce38db99d237e732f1,
+        type: 2}
+    - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
+        type: 3}
       propertyPath: levels.Array.data[0].displayName
       value: SpoonAttack
       objectReference: {fileID: 0}
     - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
       propertyPath: levels.Array.data[0].oneStarTime
-      value: 10
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
       propertyPath: levels.Array.data[0].twoStarTime
-      value: 8
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
+        type: 3}
+      propertyPath: levels.Array.data[1].displayName
+      value: TwoSides
+      objectReference: {fileID: 0}
+    - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
+        type: 3}
+      propertyPath: levels.Array.data[1].oneStarTime
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
+        type: 3}
+      propertyPath: levels.Array.data[1].twoStarTime
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
       propertyPath: levels.Array.data[0].threeStarTime
-      value: 6
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
+        type: 3}
+      propertyPath: levels.Array.data[1].threeStarTime
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2134953769307939642, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
@@ -592,6 +618,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MenuMusic
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829386694323832554, guid: 11a23642d8992fb48a97fcfb29a3d15a,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.806
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

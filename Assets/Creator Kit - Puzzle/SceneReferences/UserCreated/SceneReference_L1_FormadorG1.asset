@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c3d211144b02db9469c92f119740e451, type: 3}
-  m_Name: SceneReference_L1_Formador
+  m_Name: SceneReference_L1_FormadorG1
   m_EditorClassIdentifier: 
   levelBuildIndex: 0
   menuBuildIndex: 0
@@ -18,5 +18,5 @@ MonoBehaviour:
   oneStarTime: 0
   twoStarTime: 0
   threeStarTime: 0
-  levelScene: {fileID: 102900000, guid: 0cba9fa3a34c9c7a2bc63d7e63947c3a, type: 3}
+  levelScene: {fileID: 102900000, guid: 1ea15f8a6d8669a14b0e792ccfd3b998, type: 3}
   menuScene: {fileID: 102900000, guid: 905fe76705b48b015ab730d3b1927d89, type: 3}
