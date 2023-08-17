@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.7199878, g: 0.6925397, b: 0.7366869, a: 1}
+  m_IndirectSpecularColor: {r: 0.7199961, g: 0.6925627, b: 0.73672247, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -207,54 +207,54 @@ PrefabInstance:
         type: 3}
       propertyPath: levels.Array.data[0].level
       value: 
-      objectReference: {fileID: 11400000, guid: 68a96e63e780a1c459adf2dbdfac64a2,
+      objectReference: {fileID: 11400000, guid: a1d08a177f22e4d47a86315c80cab889,
         type: 2}
     - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
       propertyPath: levels.Array.data[1].level
       value: 
-      objectReference: {fileID: 11400000, guid: 26e684242608d6ce38db99d237e732f1,
+      objectReference: {fileID: 11400000, guid: 68a96e63e780a1c459adf2dbdfac64a2,
         type: 2}
     - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
       propertyPath: levels.Array.data[2].level
       value: 
-      objectReference: {fileID: 11400000, guid: a1d08a177f22e4d47a86315c80cab889,
+      objectReference: {fileID: 11400000, guid: 26e684242608d6ce38db99d237e732f1,
         type: 2}
     - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
       propertyPath: levels.Array.data[0].displayName
-      value: SpoonAttack
+      value: SpoonAndDoor
       objectReference: {fileID: 0}
     - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
       propertyPath: levels.Array.data[0].oneStarTime
-      value: 24
-      objectReference: {fileID: 0}
-    - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
-        type: 3}
-      propertyPath: levels.Array.data[0].twoStarTime
-      value: 22
-      objectReference: {fileID: 0}
-    - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
-        type: 3}
-      propertyPath: levels.Array.data[1].displayName
-      value: TwoSides
-      objectReference: {fileID: 0}
-    - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
-        type: 3}
-      propertyPath: levels.Array.data[1].oneStarTime
       value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
-      propertyPath: levels.Array.data[1].twoStarTime
+      propertyPath: levels.Array.data[0].twoStarTime
       value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
+      propertyPath: levels.Array.data[1].displayName
+      value: SpoonAttack
+      objectReference: {fileID: 0}
+    - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
+        type: 3}
+      propertyPath: levels.Array.data[1].oneStarTime
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
+        type: 3}
+      propertyPath: levels.Array.data[1].twoStarTime
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
+        type: 3}
       propertyPath: levels.Array.data[2].displayName
-      value: SpoonAndDoor
+      value: TwoSides
       objectReference: {fileID: 0}
     - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
@@ -269,17 +269,32 @@ PrefabInstance:
     - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
       propertyPath: levels.Array.data[0].threeStarTime
-      value: 20
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
       propertyPath: levels.Array.data[1].threeStarTime
-      value: 11
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
       propertyPath: levels.Array.data[2].threeStarTime
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
+        type: 3}
+      propertyPath: levels.Array.data[0].totalStarsRequired
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
+        type: 3}
+      propertyPath: levels.Array.data[1].totalStarsRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2134953769307939638, guid: f4f4195bdbeed824983d38771f0f5b32,
+        type: 3}
+      propertyPath: levels.Array.data[2].totalStarsRequired
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2134953769307939642, guid: f4f4195bdbeed824983d38771f0f5b32,
         type: 3}
