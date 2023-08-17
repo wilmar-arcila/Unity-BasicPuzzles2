@@ -9,12 +9,12 @@ EditorBuildSettings:
     path: Assets/Creator Kit - Puzzle/Scenes/UserCreated/MenuG2.unity
     guid: 905fe76705b48b015ab730d3b1927d89
   - enabled: 1
+    path: Assets/Creator Kit - Puzzle/Scenes/UserCreated/L1_G1.unity
+    guid: ba578a82435b3ec4f9a228bc69198438
+  - enabled: 1
     path: Assets/Creator Kit - Puzzle/Scenes/UserCreated/L1_Formador.unity
     guid: 0cba9fa3a34c9c7a2bc63d7e63947c3a
   - enabled: 1
     path: Assets/Creator Kit - Puzzle/Scenes/UserCreated/L1-Formador.unity
     guid: 1ea15f8a6d8669a14b0e792ccfd3b998
-  - enabled: 1
-    path: Assets/Creator Kit - Puzzle/Scenes/UserCreated/L1_G1.unity
-    guid: ba578a82435b3ec4f9a228bc69198438
   m_configObjects: {}
